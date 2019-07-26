@@ -1,0 +1,167 @@
+﻿[
+    {
+		"ItemId": 1,
+		"ItemName": "布甲",
+		"Type": "Equip",
+		"EquipType":3,
+		"CurNum": 1,
+		"Sprite": "armor",
+		"EquipHp":30,
+		"EquipDefense":10,
+		"Descr":"良好的防护装备",
+		"Price":50,
+		"SellPrice":30
+    },
+	{
+		"ItemId": 2,
+		"ItemName": "铁斧",
+		"Type": "Equip",
+		"EquipType":0,
+		"CurNum": 1,
+		"Sprite": "axe",
+		"EquipHp":10,
+		"EquipAttack":15,
+		"Descr":"杀伤力较大的武器",
+		"Price":40,
+		"SellPrice":20
+    },
+	{
+		"ItemId": 3,
+		"ItemName": "草鞋",
+		"Type": "Equip",
+		"EquipType":5,
+		"CurNum": 1,
+		"Sprite": "boots",
+		"EquipSpeed":10,
+		"Descr":"用草绳编制的鞋子，很牢固",
+		"Price":30,
+		"SellPrice":20
+    },
+	{
+		"ItemId": 4,
+		"ItemName": "布手套",
+		"Type": "Equip",
+		"EquipType":2,
+		"CurNum": 1,
+		"Sprite": "gloves",
+		"EquipMp":30,
+		"Descr":"厚厚的手套",
+		"Price":35,
+		"SellPrice":15
+    },
+	{
+		"ItemId": 5,
+		"ItemName": "草制护手",
+		"Type": "Equip",
+		"EquipType":2,
+		"CurNum": 1,
+		"Sprite": "bracers",
+		"EquipMp":20,
+		"Descr":"草绳编制的手套，看起来很结实",
+		"Price":28,
+		"SellPrice":15
+    },
+	{
+		"ItemId": 6,
+		"ItemName": "长裤",
+		"Type": "Equip",
+		"EquipType":4,
+		"CurNum": 1,
+		"Sprite": "pants",
+		"EquipDefense":20,
+		"Descr":"普通的裤子",
+		"Price":20,
+		"SellPrice":30
+    },
+	{
+		"ItemId": 7,
+		"ItemName": "铁质头盔",
+		"Type": "Equip",
+		"EquipType":1,
+		"CurNum": 1,
+		"Sprite": "helmets",
+		"EquipHp":50,
+		"Descr":"非常坚硬的头盔，有很好的防御效果",
+		"SellPrice":10,
+		"Drawings":[
+			{
+				"ItemId":11,
+				"ItemCount":2
+			},
+			{
+				"ItemId":12,
+				"ItemCount":3
+			}
+		],
+		"DrawingPrice":50
+    },
+	{
+		"ItemId": 8,
+		"ItemName": "银质长剑",
+		"Type": "Equip",
+		"EquipType":0,
+		"CurNum": 1,
+		"Sprite": "sword",
+		"EquipAttack":30,
+		"EquipSpeed":20,
+		"Descr":"表面泛着银光，似乎能感受到一丝寒意",
+		"Price":100,
+		"SellPrice":60
+    },
+	{
+		"ItemId": 11,
+		"ItemName": "苹果",
+		"Type": "Prop",
+		"CurNum": 1,
+		"Sprite": "apple",
+		"Descr":"看起来很新鲜",
+		"Price":5,
+		"SellPrice":1
+    },
+	{
+		"ItemId": 12,
+		"ItemName": "生肉",
+		"Type": "Prop",
+		"CurNum": 1,
+		"Sprite": "Meat",
+		"Descr":"拥有很高的能量",
+		"Price":10,
+		"SellPrice":4
+    },
+	{
+		"ItemId": 21,
+		"ItemName": "生命药剂",
+		"Type": "Consume",
+		"CurNum": 1,
+		"Sprite": "hp",
+		"Descr":"恢复少量生命值",
+		"Price":50,
+		"SellPrice":30,
+		"RecoverHp":50,
+		"Drawings":[
+			{
+				"ItemId":12,
+				"ItemCount":2
+			}
+		],
+		"DrawingPrice":20
+    },
+	{
+		"ItemId": 22,
+		"ItemName": "魔法药剂",
+		"Type": "Consume",
+		"CurNum": 1,
+		"Sprite": "mp",
+		"Descr":"恢复少量魔法值",
+		"Price":40,
+		"SellPrice":25,
+		"RecoverMp":30,
+		"Drawings":[
+			{
+				"ItemId":11,
+				"ItemCount":3
+			}
+		],
+		"DrawingPrice":20
+    }
+]
